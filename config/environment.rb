@@ -14,6 +14,6 @@ ActiveRecord::Base.establish_connection(connection_details)
 ActiveRecord::Base.establish_connection(
   :adapter => "sqlite3",
   :database => "db/halloween.sqlite"
-  )
+)
 
-require_relative "../halloween.rb"
+#require_relative "../halloween.rb"
