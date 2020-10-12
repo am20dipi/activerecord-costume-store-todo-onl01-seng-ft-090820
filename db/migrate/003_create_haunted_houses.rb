@@ -5,11 +5,12 @@ class CreateHauntedHouses < ActiveRecord::Base[4.2]
    def change 
     create_table :haunted_houses do |t|
       t.string :name
-      t.string :locatio
-      t.text :image_url
-      t.integer :size 
-      t.timestamp :created_at
-      t.timestamp :updated_at
+      t.string :location
+      t.string :theme
+      t.integer :price
+      t.boolean :family_friendly
+      t.timestamp :opening_date
+      t.timestamp :closing_date
     end
   end
 end
