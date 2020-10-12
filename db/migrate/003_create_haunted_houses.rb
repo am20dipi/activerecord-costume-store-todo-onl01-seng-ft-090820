@@ -11,6 +11,7 @@ class CreateHauntedHouses < ActiveRecord::Base[4.2]
       t.boolean :family_friendly
       t.timestamp :opening_date
       t.timestamp :closing_date
+      t.text :description
     end
   end
 end
